@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+
+
+  
+}
+
+*:focus {
+    outline: 0;
+}
+.head{
+    background-color: black;
+    background-size: 100% 100%; 
+    width: 100%;
+    
+   
+
+
+
+}
+
+.card{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+ .card .card-body h1 span{
+
+    font-size: 1rem;
+
+}
+
+.card h2{
+    color: #5d5d5d;
+}
+
+h2{
+    margin-bottom:0 ;
+}
+hr{
+    top:3rem;
+}
+
+h5{
+    color: #5d5d5d;
+
+    
+}
+
+h6{
+    color: #999999;
+
+    
+}
+
+p{
+    font-size: 10px;
+    color: #999999;
+}
+
+.space-90{
+    height: 10rem;
+}
+
+.space-20{
+   margin-left: 5rem;
+}
+
+.card .card-body h6{
+    margin-left: 0;
+
+    
+
+}
+
+.card .card-body{
+  height: auto;
+}
+
+
+
+.contactForm .inputBox input{
+
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid rgb(141, 139, 139);
+    outline: none;
+    margin-top: 50px;
+
+    margin-bottom: 30PX;
+
+}
+
+ .contactForm button .custom-btn {
+    margin: 10px;
+}
+
+
+ .custom{
+    border-radius: 0;
+    color: #d0d0d0; 
+    background:#b8b8b8;
+    width:30%;
+    border:none;
+    padding: 10px;
+}
+
+.custom2{
+
+    color: #005c84;
+    background:#fff; 
+    width:20%;
+    padding: 10px;
+    border: 1px solid rgb(226, 223, 223);
+
+}
+
+.form-select form-select-lg:focus {
+    outline: 1px dashed red;
+  }
+
+  .line{
+      height: 1px;
+      background: rgb(218, 215, 215);
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 0;
+      margin-right: 0;
+     
+  }
+
+.amount{
+    background-color: #d0d0d0;
+}
+  
+
+
+  
+ 
+
+  
+
+
+  
+  .selected {
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    margin-bottom: 8px;
+    color: #000;
+    position: relative;
+    width: 80%;
+    order: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+ 
+  
+ 
+  
+  
+
+  .form-control{
+      
+      
+      background-color: #e9e8e8 !important;
+  }
+
+
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.menu,
+.content{
+    width: 100%;
+}
+
+select{
+
+    width: 50%;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: none;
+    border-bottom: 1px solid #000;
+    appearance: none;
+    background: url(images/arrow.png) no-repeat;
+    
+    
+
+}
+
+select option{
+    width: 50%;
+}
+
+
+
+
+.data{
+    display: none;
+}
+
+
+
+.selector{
+    width: 350px;
+}
+
+.selectField{
+
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255, 255,255 ,0.7);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.selectField img{
+    width: 12px;
+}
+
+#list{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.options{
+    width: 100%;
+    padding: 15px 0 15px 70px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.options img{
+    width: 25px;
+    position: absolute;
+    top:12px;
+    left: 25px;
+}
+
+
